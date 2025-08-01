@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "TwitchClickToStop (TCTP)",
+   "icons": {
+    "48": "icons/48.png"
+  }, 
+  "version": "1.0",
+  "description": "Click on the broadcast to pause!",
+  "permissions": [
+    "activeTab",
+    "storage",
+     "webRequest",
+     "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+    "background": {
+    "service_worker": "background.js"
+  },
+    "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/*"],
+      "js": ["main.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
