@@ -8,7 +8,7 @@
 
 ## 2. Rename TwitchCLickToStop.crx_ to TwitchCLickToStop.crx
 
-## 3. Drag and drop TwitchCLickToStop.crx file in< a href="chrome://extensions/">chrome://extensions/</a>
+## 3. Drag and drop TwitchCLickToStop.crx file in <a href="chrome://extensions/">chrome://extensions/</a>
 
 ## 4. Click "Install extension"
 <img src="https://kappa.lol/uMpkYj">
